@@ -10,7 +10,6 @@ import UIKit
 class ViewController: UIViewController {
     var intigerType:Int=5
 
-
     
     
     
