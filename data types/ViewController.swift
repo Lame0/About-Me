@@ -7,17 +7,29 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
+    //variables
     var intigerType:Int=5
 
     
+    @IBOutlet weak var cat: UIImageView!
+    
+    @IBOutlet weak var dam: UIImageView!
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
+
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func imageSwicher(_ sender: Any)
+    {
+        dam.image = UIImage(named: "cat")
+        cat.image = UIImage(named: "dam")
+    }
+    
 }
 
