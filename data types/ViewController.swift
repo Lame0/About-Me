@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController
 {
-    //variables
+    //variables and outlets
     var intigerType:Int=5
 
     
