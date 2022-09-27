@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
+    
     @IBOutlet weak var text1: UITextField!
     var text1String=""
     var text11:Double = 0.0
@@ -18,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var text2: UITextField!
     var text2String=""
     var text22:Double = 0.0
+    var answerDouble = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,8 +30,14 @@ class ViewController: UIViewController {
     @IBAction func button(_ sender: Any) {
         text1String = text1.text ?? ""
         text2String = text2.text ?? ""
-        text11 = Double(text1String) ?? 9.8
-        text22 = Double(text2String) ?? 8.9
+        text11 = Double(text1String) ?? 0.0
+        text22 = Double(text2String) ?? 0.0
+        // letting the text to be receved when you press the button.
+        //?? is an optional It provides a default valiue in case the user dosent enter one.
+        answerDouble = text11 * text22
+        
+        label.text="\(answerDouble)"
+        
         
         
         }
