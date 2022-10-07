@@ -17,6 +17,11 @@
 		5704190B28E3653600929356 /* my_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704190A28E3653600929356 /* my_appUITests.swift */; };
 		5704190D28E3653600929356 /* my_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704190C28E3653600929356 /* my_appUITestsLaunchTests.swift */; };
 		5704191A28E4B4FE00929356 /* BlackimageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704191928E4B4FE00929356 /* BlackimageViewController.swift */; };
+		5704195828E60DE900929356 /* screen2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5704195728E60DE900929356 /* screen2.swift */; };
+		5751ED4328EF308C0053AF30 /* wave-hand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5751ED4228EF308C0053AF30 /* wave-hand.gif */; };
+		5751ED4528EF30B30053AF30 /* wave.png in Resources */ = {isa = PBXBuildFile; fileRef = 5751ED4428EF30B30053AF30 /* wave.png */; };
+		5751ED4728EF38DB0053AF30 /* wave-hand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5751ED4628EF38DB0053AF30 /* wave-hand.gif */; };
+		5751ED4928EF39290053AF30 /* wave-hand.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5751ED4828EF39290053AF30 /* wave-hand.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		5704190A28E3653600929356 /* my_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_appUITests.swift; sourceTree = "<group>"; };
 		5704190C28E3653600929356 /* my_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5704191928E4B4FE00929356 /* BlackimageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackimageViewController.swift; sourceTree = "<group>"; };
+		5704195728E60DE900929356 /* screen2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen2.swift; sourceTree = "<group>"; };
+		5751ED4228EF308C0053AF30 /* wave-hand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "wave-hand.gif"; path = "../../../../Downloads/wave-hand.gif"; sourceTree = "<group>"; };
+		5751ED4428EF30B30053AF30 /* wave.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wave.png; path = ../../../../Downloads/wave.png; sourceTree = "<group>"; };
+		5751ED4628EF38DB0053AF30 /* wave-hand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "wave-hand.gif"; path = "../../../../Downloads/wave-hand.gif"; sourceTree = "<group>"; };
+		5751ED4828EF39290053AF30 /* wave-hand.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "wave-hand.gif"; path = "../../../../Downloads/wave-hand.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,7 @@
 		570418DD28E3653400929356 = {
 			isa = PBXGroup;
 			children = (
+				5704195728E60DE900929356 /* screen2.swift */,
 				5704191928E4B4FE00929356 /* BlackimageViewController.swift */,
 				570418E828E3653400929356 /* my app */,
 				570418FF28E3653600929356 /* my appTests */,
@@ -105,6 +116,7 @@
 				570418E928E3653400929356 /* AppDelegate.swift */,
 				570418EB28E3653400929356 /* SceneDelegate.swift */,
 				570418ED28E3653400929356 /* ViewController.swift */,
+				5751ED4828EF39290053AF30 /* wave-hand.gif */,
 				570418EF28E3653400929356 /* Main.storyboard */,
 				570418F228E3653500929356 /* Assets.xcassets */,
 				570418F428E3653500929356 /* LaunchScreen.storyboard */,
@@ -124,6 +136,9 @@
 		5704190928E3653600929356 /* my appUITests */ = {
 			isa = PBXGroup;
 			children = (
+				5751ED4628EF38DB0053AF30 /* wave-hand.gif */,
+				5751ED4428EF30B30053AF30 /* wave.png */,
+				5751ED4228EF308C0053AF30 /* wave-hand.gif */,
 				5704190A28E3653600929356 /* my_appUITests.swift */,
 				5704190C28E3653600929356 /* my_appUITestsLaunchTests.swift */,
 			);
@@ -234,7 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5751ED4328EF308C0053AF30 /* wave-hand.gif in Resources */,
 				570418F628E3653500929356 /* LaunchScreen.storyboard in Resources */,
+				5751ED4928EF39290053AF30 /* wave-hand.gif in Resources */,
+				5751ED4728EF38DB0053AF30 /* wave-hand.gif in Resources */,
 				570418F328E3653500929356 /* Assets.xcassets in Resources */,
 				570418F128E3653400929356 /* Main.storyboard in Resources */,
 			);
@@ -251,6 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5751ED4528EF30B30053AF30 /* wave.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +283,7 @@
 				5704191A28E4B4FE00929356 /* BlackimageViewController.swift in Sources */,
 				570418EE28E3653400929356 /* ViewController.swift in Sources */,
 				570418EA28E3653400929356 /* AppDelegate.swift in Sources */,
+				5704195828E60DE900929356 /* screen2.swift in Sources */,
 				570418EC28E3653400929356 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

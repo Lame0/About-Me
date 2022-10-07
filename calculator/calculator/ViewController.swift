@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
-    
+    //declaring objects and variable
     @IBOutlet weak var text1: UITextField!
     var text1String=""
     var text11:Double = 0.0
